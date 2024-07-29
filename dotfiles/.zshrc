@@ -44,3 +44,17 @@ alias importRB="~/Sites/dev-utils/bin/vc_database_importer RunAndBecome -s --mou
 alias importHN="~/Sites/dev-utils/bin/vc_database_importer Hennings -s --mount=/Users/$(whoami)/mysql"
 alias importF4="~/Sites/dev-utils/bin/vc_database_importer Force4 -s --mount=/Users/$(whoami)/mysql"
 alias importTDR="~/Sites/dev-utils/bin/vc_database_importer TDR -s --mount=/Users/$(whoami)/mysql"
+
+# Software
+export PATH="/Users/jhancock/Sites/Dockyard/bin:$PATH"
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+export PATH="/usr/local/opt/php@8.1/bin:$PATH"
+export PATH="/usr/local/opt/php@8.1/sbin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/jhancock/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jhancock/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/jhancock/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jhancock/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
