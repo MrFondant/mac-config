@@ -12,5 +12,6 @@ brew install "awscli"
 cask install "keepassxc"
 brew install "zsh"
 brew install "composer"
-brew install "pnpm"
-brew install "nvm"
+# No PNPM / NVM
+brew install "kubectl"
+brew install "watch"
